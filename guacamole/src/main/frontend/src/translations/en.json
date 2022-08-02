@@ -828,6 +828,10 @@
         "FIELD_HEADER_WOL_SEND_PACKET"    : "Send WoL packet:",
         "FIELD_HEADER_WOL_UDP_PORT"       : "UDP port for WoL packet:",
         "FIELD_HEADER_WOL_WAIT_TIME"      : "Host boot wait time:",
+        "FIELD_HEADER_VM_CONSOLE"            : "Enable VNC for VM Consoles:",
+        "FIELD_HEADER_VM_API_VERSION"        : "VM server API version:",
+        "FIELD_HEADER_VM_ID"                 : "VM managed object ID:",
+        "FIELD_HEADER_VM_ALLOW_INSECURE_TLS" : "Allow insecure TLS for VM APIs:",
 
         "FIELD_OPTION_COLOR_DEPTH_8"     : "256 color",
         "FIELD_OPTION_COLOR_DEPTH_16"    : "Low color (16-bit)",
@@ -844,6 +848,10 @@
         "FIELD_OPTION_CLIPBOARD_ENCODING_ISO8859_1" : "ISO 8859-1",
         "FIELD_OPTION_CLIPBOARD_ENCODING_UTF_8"     : "UTF-8",
         "FIELD_OPTION_CLIPBOARD_ENCODING_UTF_16"    : "UTF-16",
+
+        "FIELD_OPTION_VM_API_VERSION_EMPTY" : "",
+        "FIELD_OPTION_VM_API_VERSION_V1"    : "REST API v1 (v6.5 to v7.0U2-deprecated)",
+        "FIELD_OPTION_VM_API_VERSION_V2"    : "REST API v2 (v7.0U3 or later)",
 
         "NAME" : "VNC",
 

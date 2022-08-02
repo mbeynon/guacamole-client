@@ -12,6 +12,25 @@
                 {
                     "name"  : "port",
                     "type"  : "NUMERIC"
+                },
+                {
+                    "name"    : "vm-console",
+                    "type"    : "BOOLEAN",
+                    "options" : [ "true" ]
+                },
+                {
+                    "name"    : "vm-api-version",
+                    "type"    : "ENUM",
+                    "options" : [ "v1", "v2" ]
+                },
+                {
+                    "name"   : "vm-allow-insecure-tls",
+                    "type"   : "BOOLEAN",
+                    "options" : [ "true" ]
+                },
+                {
+                    "name"  : "vm-id",
+                    "type"  : "TEXT"
                 }
             ]
         },
